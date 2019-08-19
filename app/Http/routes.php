@@ -33,6 +33,6 @@ Route::get('/', function () {
 Route::group(['namespace' => 'Api', 'prefix' => 'api', 'middleware' => 'cors'], function()
 {
 	Route::controller('/category', 'CategoryController', 'category');
-	Route::resource('product', 'ProductController');
+	Route::resource('products', 'ProductController');
 	// end
 });
