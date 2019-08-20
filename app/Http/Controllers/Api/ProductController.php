@@ -47,7 +47,7 @@ class ProductController extends Controller
 				'detail' => $e->getMessage()
 			];
 		}
-
+        sleep(1.5);
 		return Response::json($response,200);
     }
 
@@ -96,7 +96,7 @@ class ProductController extends Controller
                 'detail' => $e->getMessage()
             ];
         }
-
+        sleep(1.5);
         return Response::json($response,200);
     }
 
