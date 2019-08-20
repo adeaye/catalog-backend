@@ -20,7 +20,7 @@ class ProductTableSeeder extends Seeder
 
     	for ($i=1; $i <= 600; $i++) {
     		$data = [
-    			'name' => 'F '.$faker->name',
+    			'name' => 'F '.$faker->name,
     			'category_id' => rand(1,5),
     			'created_at' => date("Y:m:d H:i:s"),
     			'updated_at' => date("Y:m:d H:i:s"),

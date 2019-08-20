@@ -11,7 +11,7 @@ Catalog Restfull API
 ## Installation
 ```
 install PHP and composer
-run composer install
+inside project run `composer update --no-scripts`
 ```
 ## Setting ENV file
 ```
